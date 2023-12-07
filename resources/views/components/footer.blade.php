@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            footer{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-        </style>
-    </head>
-    <body class="antialiased">
-        <footer class="footer">
-            <h1>Copyright Tenda Glasses 2023</h1>
-        </footer>
-    </body>
-</html>
+<style>
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1c5253;
+        color: white;
+    }
+</style>
+<footer class="footer">
+    <h1>Copyright Glasses Pedia 2023</h1>
+</footer>
