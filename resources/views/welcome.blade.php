@@ -128,6 +128,6 @@
                 </div>
             </div>
         </div>
-        @include('components/footer.blade.php')
+        @include('./components/footer')
     </body>
 </html>
