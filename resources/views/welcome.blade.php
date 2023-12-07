@@ -22,7 +22,7 @@
         </style>
     </head>
     <body class="antialiased">
-        @include('./components/navbar')
+        @include('./components/bsNav')
         <div style="height:120vh"></div>
         @include('./components/footer')
     </body>

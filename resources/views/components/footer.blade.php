@@ -5,6 +5,7 @@
         justify-content: center;
         background-color: #1c5253;
         color: white;
+        width: 100vw;
     }
 </style>
 <footer class="footer">
