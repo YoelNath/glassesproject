@@ -88,8 +88,7 @@
         <div class="latest-product">
 
             <div class="row"> <!-- 1 -->
-                <img src="./images" alt="">
-                {{-- url image : https://down-id.img.susercontent.com/file/id-11134207-7r98r-lngu2srf013dbd --}}
+                <img src="{{ URL('public\images\latest\terbaru1.jpg') }}" alt="">
                 <div class="product-text">
                     <h5>Baru</h5>
                 </div>
@@ -111,8 +110,8 @@
             </div>
 
             <div class="row"> <!-- 2 -->
-                <img src="./images" alt="">
-                {{-- url image : https://down-id.img.susercontent.com/file/id-11134207-7r98u-lnbig5cd86mh80 --}}
+                <img src="{{ URL('public\images\latest\terbaru2.jpg') }}" alt="">
+        
                 <div class="product-text">
                     <h5>Baru</h5>
                 </div>
@@ -134,8 +133,8 @@
             </div>
 
             <div class="row"> <!-- 3 -->
-                <img src="./images" alt="">
-                {{-- url image : https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcIBzRIaHb1ngZSV_4SjwDBTby4k0FuwMcOyadfTmr0YjJWt5iHu6g8GNABQo8q9fmxg&usqp=CAU --}}
+                <img src="{{ URL('public\images\latest\terbaru3.jpg') }}" alt="">
+                
                 <div class="product-text">
                     <h5>Baru</h5>
                 </div>
