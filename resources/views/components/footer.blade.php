@@ -1,13 +1,14 @@
 <style>
-    footer{
+    footer {
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #1c5253;
         color: white;
-        width: 100vw;
+        width: 100%;
+        padding: 20px;
     }
 </style>
 <footer class="footer">
-    <h1>Copyright Glasses Pedia 2023</h1>
+    <h4>Copyright Glasses Pedia 2023</h4>
 </footer>
