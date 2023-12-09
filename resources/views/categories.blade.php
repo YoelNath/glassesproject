@@ -2,22 +2,12 @@
 @section('content') --}}
 
 <link rel="stylesheet" href="./Glassespedia/categories.css">
-
+@include('./components/bsNav')
 <section class="product-categories">
 
     <div class="products">
 
-        <div class="row"> <!-- 1. Men Glasses -->
-            <img src="./images" alt="">
-            <div class="con-text">
-                <h2>Kacamata Pria</h2><br>
-                <p>
-                    Menyediakan berbagai jenis kacamata untuk berbagai keperluan khusus untuk pria.
-                    <a href="/menglasses">Tampilkan lebih</a>
-                </p>
-            </div>
-        </div>
-
+        @include('./components/categoryCard')
         <div class="row"> <!-- 2. Women Glasses -->
             <img src="./images" alt="">
             <div class="con-text">
@@ -27,9 +17,8 @@
                     <a href="#">Tampilkan lebih</a>
                 </p>
             </div>
-        </div>          
+        </div>
     </div>
 
 </section>
-@stop 
-
+{{-- @stop  --}}

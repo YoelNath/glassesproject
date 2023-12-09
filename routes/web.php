@@ -21,4 +21,12 @@ Route::get('/lmao', function () {
     return view('auth/login');
 });
 
+Route::get('/categories', function () {
+    return view('categories');
+});
+
+Route::get('/menglasses', function () {
+    return view('menglasses');
+});
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
