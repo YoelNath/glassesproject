@@ -31,5 +31,5 @@
     </div>
 
 </section>
-@stop 
+{{-- @stop  --}}
 
