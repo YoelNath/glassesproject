@@ -21,13 +21,14 @@ Route::get('/lmao', function () {
     return view('auth/login');
 });
 
+Route::get('/index', function () {
+    return view('index');
+});
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-=======
 Route::get('/categories', function () {
     return view('categories');
 });
-
+    
 
 Route::get('/menglasses', function () {
     return view('menglasses');
