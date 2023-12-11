@@ -16,17 +16,16 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ URL('public\images\latest\terbaru1.jpg') }}" class="d-block w-100" alt="...">
+      <img src="./images/latest/terbaru1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="...">
+      <img src="./images/womenglasses.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="g" class="d-block w-100" alt="...">
+      <img src="./images/menglasses.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
 </div>
 <footer>
 @include('./components/footer')
 </footer>
-{{-- @stop  --}}

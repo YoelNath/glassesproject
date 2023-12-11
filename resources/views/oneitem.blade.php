@@ -2,12 +2,12 @@
 @include('./components/bsNav')
 <aside>
     <div class="main-image">
-        <img src="./LoakPedia/1.jpg" alt="">
+        <img src="./images/popular/palingcari1.jpeg" alt="">
     </div>
 
     <div class="side-image">
-        <img src="./LoakPedia/1.jpg" alt="">
-        <img src="./LoakPedia/topi.jpg" alt="">
+        <img src="./images/popular/palingcari1.jpeg" alt="">
+        <img src="./images/popular/palingcari1.jpeg" alt="">
     </div>
 
     <div class="socials">
@@ -27,7 +27,7 @@
 </aside>
 
 <main>
-    <h1>Topi Medium Wanita</h1>
+    <h4>OPPA OP10 FBL Hitam Glossy Minus - Lensa Normal</h4>
     <div class="rating">
         <i class="bx bx-star"></i>
         <i class="bx bx-star"></i>
@@ -93,8 +93,6 @@
     <br><hr><br>
     <h2>Deskripsi Produk</h2>
     <p>
-        Dipakai oleh istri saya tanpa ada penyakit menular.
-        Cocok bagi anda yang ingin pergi ke pantai untuk healing-healing
-        tanpa terganggu sinar matahari yang panas.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam eum odit quos voluptatem maxime eligendi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, minus qui, quo perspiciatis id maiores doloribus aliquid reiciendis pariatur magni voluptatem accusantium ipsum harum perferendis dolor necessitatibus ex culpa, nisi nostrum nobis. Numquam blanditiis dolore quos iusto, doloremque architecto! Est sit natus placeat illum numquam iure sapiente, itaque quod velit? Nisi quidem repudiandae vel architecto perspiciatis placeat ullam sapiente, quia debitis earum, laborum impedit eius, beatae iure quo! Consequuntur sed vero quo modi enim accusamus, expedita obcaecati sit ipsam dolore placeat optio amet molestiae ullam quidem fuga quia eveniet possimus ipsum nihil aliquam? Natus ullam aut quas, ratione laudantium at. Suscipit perferendis tempora consectetur incidunt ut labore optio repellat recusandae eius aperiam! Enim, corporis porro sunt aliquid quidem autem doloribus.
     </p>
 </section>

@@ -16,7 +16,7 @@
                 <a href="/oneitem"><img src="./images/popular/palingcari1.jpeg" alt=""></a>
                 
                 <div class="product-text">
-                    <h5>TERBAIK</h5>
+                    <h5>POPULER</h5>
                 </div>
                 <div class="heart-icon">
                     <i class='bx bx-heart'></i>
@@ -36,7 +36,7 @@
             <div class="row"> <!-- 2 -->
                 <img src="./images/popular/palingcari2.jpg" alt="">
                 <div class="product-text">
-                    <h5>TERBAIK</h5>
+                    <h5>POPULER</h5>
                 </div>
                 <div class="heart-icon">
                     <i class='bx bx-heart'></i>
@@ -56,7 +56,7 @@
                 <img src="./images/popular/palingcari3.jpg" alt="">
                 
                 <div class="product-text">
-                    <h5>TERBAIK</h5>
+                    <h5>POPULER</h5>
                 </div>
                 <div class="heart-icon">
                     <i class='bx bx-heart'></i>
