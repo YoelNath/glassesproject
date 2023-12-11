@@ -10,5 +10,5 @@
     }
 </style>
 <footer class="footer">
-    <h4>Copyright Glasses Pedia 2023</h4>
+    <h4>Copyright &#169;2023 GlassesPedia All Rights Reserved</h4>
 </footer>

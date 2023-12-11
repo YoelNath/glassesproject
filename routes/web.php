@@ -23,7 +23,7 @@ Route::get('/lmao', function () {
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-=======
+
 Route::get('/categories', function () {
     return view('categories');
 });
@@ -38,5 +38,4 @@ Route::get('/categories', function () {
     return view('categories');
 });
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

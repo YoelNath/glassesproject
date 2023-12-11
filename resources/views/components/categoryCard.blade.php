@@ -1,9 +1,9 @@
 <div class="row">
-    <img src="{Gambar Kacamata}" alt="">
+    <img src="./images/menglasses.jpg" alt="">
     <div class="con-text">
-        <h2>{category title}</h2><br>
+        <h2>Kacamata Pria</h2><br><br>
         <p>
-            {category description}
+            Menyediakan berbagai jenis kacamata untuk berbagai keperluan khusus untuk pria.
             <a href="/menglasses">Tampilkan lebih</a>
         </p>
     </div>
