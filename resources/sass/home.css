@@ -24,7 +24,7 @@
 
 .carousel-item img {
 
-    height: 700px;
+    height: 500px;
     object-fit:cover;   
     aspect-ratio: 1/1;
    }
