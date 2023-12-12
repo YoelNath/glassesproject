@@ -29,7 +29,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/categories', function () {
     return view('categories');
-});    
+})->name('categories');    
 
 Route::get('/menglasses', function () {
     return view('menglasses');

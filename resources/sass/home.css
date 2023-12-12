@@ -21,3 +21,10 @@
 .card-body a{
     color: white;
 }
+
+.carousel-item img {
+
+    height: 700px;
+    object-fit:cover;   
+    aspect-ratio: 1/1;
+   }
