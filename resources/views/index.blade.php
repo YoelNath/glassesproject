@@ -50,6 +50,16 @@
       </button>
     </div>
 
+    <div class="card text-center">
+
+        <div class="card-body">
+      
+          <h5 class="card-title">Trending Today</h5>
+          <p class="card-text">Check out our latest product today</p>
+          <a href="#" class="btn btn-primary">Chill Glasses</a>
+        </div>
+      
+      </div>
 
     <!-- Iklan -->
     <section class="men-fashions" style="margin-top:10px">
@@ -197,6 +207,7 @@
         </div>
 
     </section>
+<<<<<<< HEAD
     <div class="card text-center">
 
   <div class="card-body">
@@ -219,14 +230,18 @@
       <img src="./images/menglasses.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
-=======
->>>>>>> d2d826d98855aaa961a6409be141c81fe726992f
 </div>
 
   </div>
+
+
+
+  </div>
+
 
       
 
 <footer>
 @include('./components/footer')
 </footer>
+{{-- @stop  --}}
