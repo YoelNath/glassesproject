@@ -7,8 +7,8 @@
         color: white;
         width: 100%;
         padding: 20px;
-        position:fixed;
-    bottom:0;
+        /* position:fixed; */
+        /* bottom:0; */
     }
 </style>
 <footer class="footer">

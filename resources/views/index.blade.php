@@ -59,7 +59,7 @@
           <a href="#" class="btn btn-primary">Chill Glasses</a>
         </div>
       
-      </div>
+    </div>
 
     <!-- Iklan -->
     <section class="men-fashions" style="margin-top:10px">
@@ -207,7 +207,7 @@
         </div>
 
     </section>
-<<<<<<< HEAD
+
     <div class="card text-center">
 
   <div class="card-body">
@@ -217,7 +217,6 @@
     <a href="#" class="btn btn-primary">Chill Glasses</a>
   </div>
 
-<<<<<<< HEAD
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -232,16 +231,11 @@
   </div>
 </div>
 
-  </div>
+  {{-- </div>
 
 
 
-  </div>
+  </div> --}}
 
-
-      
-
-<footer>
 @include('./components/footer')
-</footer>
 {{-- @stop  --}}
