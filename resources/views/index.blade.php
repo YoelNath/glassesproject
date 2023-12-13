@@ -1,8 +1,8 @@
 @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 <link rel="stylesheet" href="./Glassespedia/menglasses.css">
+<link rel="stylesheet" href="./Glassespedia/home.css">
 
-<link rel="stylesheet" href="./resources/sass/new.css">
 @include('./components/bsNav')
 
 
@@ -19,21 +19,21 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/home/unsplash_KP4bxnxAilU.png" class="d-block w-100" alt="...">
+          <img src="./images/home/zeiss_mini-style-guide.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Trendy Glasses</h5>
             <p>"Glasses are not just a window to clearer vision; they are a frame for the world's beauty, a reflection of your unique style, and a reminder that sometimes, a different perspective is all we need to see the extraordinary in the ordinary."</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/home/unsplash_cDGaKsbgIwo.png"class="d-block w-100" alt="...">
+          <img src="./images/home/zeiss_mini-style-guide.jpg"class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
             <h5>Stylish Glasses</h5>
             <p>"Glasses are not just a lens to see the world; they are a frame to envision your unique perspective, a statement of style, and a reflection of the clarity you seek in every moment of life."</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/home/unsplash_BBEbl2WKRlU.png" class="d-block w-100" alt="...">
+          <img src="./images/home/zeiss_mini-style-guide.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Chill Glasses</h5>
             <p>"Glasses not only frame the world we see, but they also reveal the beauty in every detail, turning vision into an art, and style into a statement."</p>

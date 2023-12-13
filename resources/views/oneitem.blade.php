@@ -52,7 +52,9 @@
          num = document.querySelector(".num");
 
          let a = 1;
-
+        plus .addEventListener("click", ()=>{
+            if ()
+        })
          plus.addEventListener("click", ()=>{
             if(a < 2){ /* karena produk hanya tersisa 2, maka dibikin limit 2 */
                 a++;
