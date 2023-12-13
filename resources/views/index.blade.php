@@ -206,30 +206,6 @@
 
         </div>
 
-    </section>
-
-    <div class="card text-center">
-
-  <div class="card-body">
-
-    <h5 class="card-title">Trending Today</h5>
-    <p class="card-text">Check out our latest product today</p>
-    <a href="#" class="btn btn-primary">Chill Glasses</a>
-  </div>
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./images/latest/terbaru1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./images/womenglasses.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./images/menglasses.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
 
   {{-- </div>
 
