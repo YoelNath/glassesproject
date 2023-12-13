@@ -203,7 +203,7 @@
 
     <h5 class="card-title">Trending Today</h5>
     <p class="card-text">Check out our latest product today</p>
-    <a href="#" class="btn btn-primary">Chill Glasses</a>
+    <a href="/categories" class="btn btn-primary">Chill Glasses</a>
   </div>
 
 </div>
