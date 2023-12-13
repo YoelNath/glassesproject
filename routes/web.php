@@ -39,4 +39,8 @@ Route::get('/categories', function () {
     return view('categories');
 });
 
+Route::get('/oneitem', function () {
+    return view('oneitem');
+});
+
 
