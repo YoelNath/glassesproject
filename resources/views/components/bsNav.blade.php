@@ -12,6 +12,7 @@
         justify-content: flex-start;
         height: 72px;
         width: 100%;
+        z-index: 1000;
     }
 
     .icon {

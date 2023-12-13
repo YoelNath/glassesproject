@@ -1,15 +1,12 @@
-{{-- @extends('components.navbar')
-@section('content') --}}
-
 <link rel="stylesheet" href="./Glassespedia/categories.css">
 @include('./components/bsNav')
 <section class="product-categories">
 
     <div class="products">
-
         @include('./components/categoryCard')
+
         <div class="row"> <!-- 2. Women Glasses -->
-            <img src="./images" alt="">
+            <img src="./images/womenglasses.jpg" alt="">
             <div class="con-text">
                 <h2>Kacamata Wanita</h2><br><br>
                 <p>
@@ -18,7 +15,21 @@
                 </p>
             </div>
         </div>
+
+        <div class="row"> <!-- 3. Goggles -->
+            <img src="./images/googles.jpg" alt="">
+            <div class="con-text">
+                <h2>Goggles</h2><br><br><br>
+                <p>
+                    Menyediakan berbagai jenis kacamata ukuran besar untuk kegiatan khusus.
+                    <a href="#">Tampilkan lebih</a>
+                </p>
+            </div>
+        </div>
+
     </div>
 
 </section>
-{{-- @stop  --}}
+
+<div style="height:120vh"></div>
+@include('./components/footer')

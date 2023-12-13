@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+
+    overflow-x: hidden;
+    
 }
 
 :root{
@@ -28,6 +31,7 @@
     color: #111;
     font-size: 40px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .row{
