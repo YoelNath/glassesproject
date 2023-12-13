@@ -63,12 +63,23 @@
         style="font-size: 24px"></button>
     <form className="d-flex w-100 mx-5 dropdown" role="search">
         <div className="input-group me-3">
-            <input className="form-control" type="search" placeholder="Search" aria-label="Search"></input>
+            <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
             <button className="btn btn-outline-secondary" type="button" id="button-addon2">
                 Search
             </button>
         </div>
     </form>
+    <ul>
+        <li>Home</li>
+        <li>Shop</li>
+        <ul>
+            <li>Men (ini nanti jadi dropdown)</li>
+            <li>Women</li>
+            <li>kids</li>
+        </ul>
+        <li>Cart</li>
+        <li>Account</li>
+    </ul>
 
 </div>
 
