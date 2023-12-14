@@ -71,20 +71,8 @@
         </div>
     </form>
     <ul>
-        <a href="/home"><li>Home</li></a>
-        <li>Shop</li>
-        <li class="categories">
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown button
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Men</a>
-                    <a class="dropdown-item" href="#">Women</a>
-                    <a class="dropdown-item" href="#">Goggles</a>
-                </div>
-            </div>
-        </li>
+        <a href="/"><li>Home</li></a>
+        <a href="/categories"><li>Categories</li></a>
         <li>Cart</li>
         <li>Account</li>
     </ul>
