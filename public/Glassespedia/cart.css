@@ -17,12 +17,7 @@
     --search-text: #010718;
 }
 
-/* Toko */
-.cek-toko{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Divides the container into 5 equal columns */
-    grid-gap: 10px; /* Default gap between sections */
-}
+
 
 .sections{
     background-color: white;
@@ -182,7 +177,7 @@
 .cek-button{
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 1070px;
+    margin-left: 1020px;
 }
 
 .cek-button a button{
