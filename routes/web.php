@@ -43,3 +43,7 @@ Route::get('/oneitem', function () {
     return view('oneitem');
 });
 
+Route::get('/cart', function() {
+    return view('cart');
+});
+

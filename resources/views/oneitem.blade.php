@@ -5,11 +5,6 @@
         <img src="./images/popular/palingcari1.jpeg" alt="">
     </div>
 
-    <div class="side-image">
-        <img src="./images/popular/palingcari1.jpeg" alt="">
-        <img src="./images/popular/palingcari1.jpeg" alt="">
-    </div>
-
     <div class="socials">
         <p>Bagikan :
         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -34,7 +29,7 @@
         <i class="bx bx-star"></i>
         <i class="bx bx-star"></i>
     </div>
-    <p>Diunggah oleh : <a href="#">@Bambang</a></p>
+    <p>Diunggah oleh : <a href="#">@Martin</a></p>
     <p>Diunggah pada : 27 Maret 2023</p>
 
     <h3>Kuantitas : <span>*tersisa 2 buah</span></h3>
@@ -74,11 +69,11 @@
     </script>
 
     <div class="add-cart">
-        <a href="/login"><button class="add-cart">Tambah ke Keranjang</button></a>
+        <a href="/index"><button class="add-cart">Tambah ke Keranjang</button></a>
     </div>
 
     <div class="buy-now">
-        <a href="/login"><button class="buy-now">Beli Sekarang</button></a>
+        <a href="/cart"><button class="buy-now">Beli Sekarang</button></a>
     </div>
 
 </main>
@@ -88,7 +83,6 @@
     <h2>Spesifikasi Produk</h2>
     <p>Jumlah Stok &emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;&nbsp;: &emsp;2 buah</p>
     <p>Dikirim dari &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;: &emsp;Kota Jakarta Barat </p>
-    <p>Terakhir digunakan &nbsp;&nbsp;&nbsp;: &emsp;21 Maret 2022</p>
 </section>
 
 <section class="desc-product">

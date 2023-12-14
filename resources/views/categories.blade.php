@@ -31,5 +31,5 @@
 
 </section>
 
-<div style="height:120vh"></div>
+<div style="height:80vh"></div>
 @include('./components/footer')
