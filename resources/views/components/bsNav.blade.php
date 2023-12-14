@@ -71,13 +71,20 @@
         </div>
     </form>
     <ul>
-        <li>Home</li>
+        <a href="/home"><li>Home</li></a>
         <li>Shop</li>
-        <ul>
-            <li>Men (ini nanti jadi dropdown)</li>
-            <li>Women</li>
-            <li>kids</li>
-        </ul>
+        <li class="categories">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Men</a>
+                    <a class="dropdown-item" href="#">Women</a>
+                    <a class="dropdown-item" href="#">Goggles</a>
+                </div>
+            </div>
+        </li>
         <li>Cart</li>
         <li>Account</li>
     </ul>
