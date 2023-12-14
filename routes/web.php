@@ -47,3 +47,7 @@ Route::get('/cart', function() {
     return view('cart');
 });
 
+Route::get('/empty', function() {
+    return view('empty');
+});
+

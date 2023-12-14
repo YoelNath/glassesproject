@@ -1,0 +1,49 @@
+/* No item image */
+.empty-image{
+    margin-left: 270px;
+}
+
+/* Text */
+.text{
+    margin-left: 425px;
+    font-size: x-large;
+}
+
+/* Belanja Sekarang */
+form .input-form input{
+    height: 100%;
+    width: 50%;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #c7bebe;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+form .input-form.button{
+    padding-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.input-form input:focus,
+.input-form input:valid{
+    border-color: var(--nav-color);
+}
+
+.input-form.button input{
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    background: var(--nav-color);
+    cursor: pointer;
+}
+
+form .input-form.button input:hover{
+    background: #99cd72
+}

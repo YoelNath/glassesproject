@@ -2,19 +2,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 @include('./components/bsNav')
-<div class="cek-toko">
-    <!-- 1. Checkbox -->
-    <div class="sections">
-        <input type="checkbox">
-    </div>
-
-    <!-- 2. Nama Toko -->
-    <div class="sections">
-        <a href="#"><i class='bx bx-store-alt'>&nbsp;Martin</i></a>
-    </div>
-</div>
-
-<br><hr>
 
 <div class="cek-barang">
 
@@ -30,7 +17,7 @@
 
     <!-- 3. Nama Produk -->
     <div class="section">
-        <p>OPPA OP10 FBL Hitam Glossy Minus - Lensa Norma</p>
+        <p>OPPA OP10 FBL Hitam Glossy Minus - Lensa Normal</p>
     </div>
 
     <!-- 4. Kuantitas -->
@@ -69,7 +56,7 @@
 
     <!-- 5. Hapus -->
     <div class="section">
-        <a href="Empty_Cart.html"><i class='bx bx-trash'>&nbsp;Hapus</i></a>
+        <a href="/empty"><i class='bx bx-trash'>&nbsp;Hapus</i></a>
     </div>
 </div>
 
@@ -82,5 +69,8 @@
     <a href="/checkout"><button class="buy-now">Periksa</button></a>
 </div>
 
-<div style="height:80vh"></div>
+<section class="ads-image">
+    <img src="./images/iklan.jpg" alt="">
+</section>
+
 @include('./components/footer')
