@@ -63,7 +63,7 @@
         <li class="nav-item mx-2"><a href="/" class="nav-link">Home</a></li>
         <li class="nav-item mx-2"><a href="/categories" class="nav-link">Categories</a></li>
         <li class="nav-item mx-2"><a href="/empty" class="nav-link">Cart</a></li>
-        <li class="nav-item mx-2"><a href="/" class="nav-link">Account</a></li>
+        <li class="nav-item mx-2"><a href="/login" class="nav-link">Account</a></li>
     </ul>
 </div>
 
