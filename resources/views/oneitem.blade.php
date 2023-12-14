@@ -69,11 +69,7 @@
     </script>
 
     <div class="add-cart">
-        <a href="/index"><button class="add-cart">Tambah ke Keranjang</button></a>
-    </div>
-
-    <div class="buy-now">
-        <a href="/cart"><button class="buy-now">Beli Sekarang</button></a>
+        <a href="/cart"><button class="add-cart">Tambah ke Keranjang</button></a>
     </div>
 
 </main>

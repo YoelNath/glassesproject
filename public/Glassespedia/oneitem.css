@@ -180,8 +180,8 @@ main h3 span{
 /* Tombol beli */
 main .add-cart{
     float: left;
-    margin-left: 6px; 
-    margin-top: -150px;
+    margin-left: 150px;
+    margin-top: -140px;
 }
 
 main .add-cart a button{
@@ -196,7 +196,7 @@ main .add-cart a button{
     transition: .5s;
 }
 
-main .buy-now{
+/* main .buy-now{
     float: left;
     margin-left: 130px;
     margin-top: -150px; 
@@ -212,7 +212,7 @@ main .buy-now a button{
     font-weight: 700;
     border: 2px solid var(--nav-color);
     transition: .5s;
-}
+} */
 
 /**/
 .spec-product h2{
