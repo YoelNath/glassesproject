@@ -36,7 +36,7 @@
              let a = 1;
 
              plus.addEventListener("click", ()=>{
-                if(a < 2){ /* karena produk hanya tersisa 2, maka dibikin limit 2 */
+                if(a < 1){ /* karena produk hanya tersisa 2, maka dibikin limit 2 */
                     a++;
                     a = (a < 10) ? "0" + a : a;
                     num.innerText = a;

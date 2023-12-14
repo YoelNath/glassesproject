@@ -6,7 +6,7 @@
 @include('components.bsNav')
 
 <section class="empty-image">
-    <img src="empty.jpg" alt="">
+    <img src="./images/empty.jpg" alt="">
 </section>
 
 <section class="text">
