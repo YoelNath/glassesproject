@@ -21,10 +21,6 @@ Route::get('/login', function () {
     return view('auth/login');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/categories', function () {
@@ -51,6 +47,9 @@ Route::get('/empty', function () {
     return view('empty');
 });
 
+Route::get('/checkout', function() {
+    return view('checkout');
+});
 Route::get('/empty', function () {
     return view('empty');
 });
