@@ -15,7 +15,7 @@
 
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-5">
                         <label class="form-label" for="inputGroupSelect01">Gender</label>
                         <div class="input-group">
                             <select class="custom-select form-control" id="inputGroupSelect01">
@@ -26,7 +26,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <label for="exampleInputPassword1" class="form-label">Date of Birth</label>
                         <input type="date" class="form-control" id="exampleInputPassword1">
                     </div>

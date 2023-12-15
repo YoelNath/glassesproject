@@ -61,7 +61,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/menglasses">
                         Men
                     </a>
                 </li>
@@ -79,7 +79,7 @@
         </li>
     </ul>
     <ul class="navbar-nav mt-auto mb-2 mb-lg-0">
-        <li class="nav-item mx-2"><a href="/" class="nav-link">Cart</a></li>
+        <li class="nav-item mx-2"><a href="/cart" class="nav-link">Cart</a></li>
         <li class="nav-item mx-2"><a href="/login" class="nav-link">Account</a></li>
 </div>
 
