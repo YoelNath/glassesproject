@@ -21,15 +21,11 @@ Route::get('/login', function () {
     return view('auth/login');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/categories', function () {
     return view('categories');
-})->name('categories');    
+})->name('categories');
 
 Route::get('/menglasses', function () {
     return view('menglasses');
@@ -43,14 +39,21 @@ Route::get('/oneitem', function () {
     return view('oneitem');
 });
 
-Route::get('/cart', function() {
+Route::get('/cart', function () {
     return view('cart');
 });
 
-Route::get('/empty', function() {
+Route::get('/empty', function () {
     return view('empty');
 });
 
 Route::get('/checkout', function() {
     return view('checkout');
+});
+Route::get('/empty', function () {
+    return view('empty');
+});
+
+Route::get('/login', function () {
+    return view('auth/login');
 });

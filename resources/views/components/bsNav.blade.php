@@ -21,21 +21,13 @@
         cursor: pointer;
     }
 
-    .sidebar-bg {
-        position: fixed;
-        display: none;
-        width: 100vw;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.6);
-    }
-
     .sidebar {
         background-color: #00a888;
         padding: 20px;
     }
 </style>
 
-<nav class="header">
+<nav class="header sticky-top">
     <a class="icon" id="hamburger" data-bs-toggle="offcanvas" href="#offcanvasSidebar" role="button"
         aria-controls="offcanvasSidebar">
         <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 448 512">
@@ -47,7 +39,7 @@
     </a>
 </nav>
 
-<div class="sidebar offcanvas offcanvas-start" id="offcanvasSidebar" tabindex="-1"
+<div class="sidebar offcanvas offcanvas-start flex-col" id="offcanvasSidebar" tabindex="-1"
     aria-labelledby="offcanvasSidebarLabel">
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
         style="font-size: 24px"></button>
@@ -59,12 +51,41 @@
             </button>
         </div>
     </form>
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item mx-2"><a href="/" class="nav-link">Home</a></li>
-        <li class="nav-item mx-2"><a href="/categories" class="nav-link">Categories</a></li>
-        <li class="nav-item mx-2"><a href="/empty" class="nav-link">Cart</a></li>
-        <li class="nav-item mx-2"><a href="/login" class="nav-link">Account</a></li>
+    <ul class="navbar-nav mt-2 mb-2 mb-lg-0">
+        <li class="nav-item mx-2"><a href="/" class="nav-link text">Home</a></li>
+        <li class="nav-item dropdown mx-2">
+            <a class="nav-link dropdown-toggle" role="button" href="#dropdown-menu" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categories
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Men
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Women
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Kids
+                    </a>
+                </li>
+            </ul>
+        </li>
     </ul>
+    <ul class="navbar-nav mt-auto mb-2 mb-lg-0">
+        <li class="nav-item mx-2"><a href="/" class="nav-link">Cart</a></li>
+        <li class="nav-item mx-2"><a href="/" class="nav-link">Account</a></li>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item mx-2"><a href="/categories" class="nav-link">Categories</a></li>
+            <li class="nav-item mx-2"><a href="/empty" class="nav-link">Cart</a></li>
+            <li class="nav-item mx-2"><a href="/login" class="nav-link">Account</a></li>
+        </ul>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
