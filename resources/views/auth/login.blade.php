@@ -1,26 +1,4 @@
-<style>
-    .background {
-        background-color: #00a888;
-        padding: 60px 0 60px;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .login {
-        background: #1c5253;
-        width: 60vw;
-        min-width: 400px;
-        max-width: 640px;
-        margin: 8vh 0;
-        padding: 5vh 4vh;
-        color: white;
-        border: 2px solid black;
-        border-radius: 20px;
-    }
-</style>
-
+<link rel="stylesheet" href="./Glassespedia/oneGiantCard.css" />
 @include('./components/bsNav')
 <div class="background">
     <div>

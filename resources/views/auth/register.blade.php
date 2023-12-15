@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./Glassespedia/account.css" />
+<link rel="stylesheet" href="./Glassespedia/oneGiantCard.css" />
 @include('./components/bsNav')
 <div class="background">
     <div>
