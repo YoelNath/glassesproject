@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/lmao', function () {
+Route::get('/login', function () {
     return view('auth/login');
 });
 
@@ -45,6 +45,14 @@ Route::get('/oneitem', function () {
 
 Route::get('/cart', function () {
     return view('cart');
+});
+
+Route::get('/empty', function () {
+    return view('empty');
+});
+
+Route::get('/empty', function () {
+    return view('empty');
 });
 
 Route::get('/login', function () {

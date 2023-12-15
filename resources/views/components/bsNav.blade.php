@@ -35,7 +35,7 @@
                 d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
         </svg></a>
     <a href="" style="justify-self: center; margin:auto">
-        <img src="{{ URL('storage/images/glassespedia_logo.png') }}" style="width: 60px; cursor:pointer;" />
+        <img src="./images/logoGlasses.png" style="width: 60px; cursor:pointer;" />
     </a>
 </nav>
 
@@ -80,7 +80,12 @@
     <ul class="navbar-nav mt-auto mb-2 mb-lg-0">
         <li class="nav-item mx-2"><a href="/" class="nav-link">Cart</a></li>
         <li class="nav-item mx-2"><a href="/" class="nav-link">Account</a></li>
-    </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item mx-2"><a href="/categories" class="nav-link">Categories</a></li>
+            <li class="nav-item mx-2"><a href="/empty" class="nav-link">Cart</a></li>
+            <li class="nav-item mx-2"><a href="/login" class="nav-link">Account</a></li>
+        </ul>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

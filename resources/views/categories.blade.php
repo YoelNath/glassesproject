@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="./Glassespedia/categories.css">
 @include('./components/bsNav')
+<div style="height:5vh"></div>
 <section class="product-categories">
 
     <div class="products">
@@ -30,6 +31,5 @@
     </div>
 
 </section>
-
-<div style="height:80vh"></div>
+<div style="height:3vh"></div>
 @include('./components/footer')
