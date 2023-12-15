@@ -51,3 +51,6 @@ Route::get('/empty', function() {
     return view('empty');
 });
 
+Route::get('/checkout', function() {
+    return view('checkout');
+});
