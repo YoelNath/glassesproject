@@ -1,97 +1,52 @@
-<link rel="stylesheet" href="./Glassespedia/oneGiantCard.css" />
-@include('./components/bsNav')
-<div class="background">
-    <div>
-        <h1 class="mt-3">Glasses Pedia</h1>
-        <div class="login">
-            <form>
-                <h1 class="mt-3 text-center">REGISTER</h1>
-                <div class="row mb-2">
-                    <div class="col">
-                        <label for="completeName" class="form-label">Complete Name</label>
-                        <input type="email" class="form-control" id="completeName"
-                            aria-describedby="completeNameHelp">
-                    </div>
+<x-guest-layout>
+    <form method="POST" action="{{ route('register') }}">
+        @csrf
 
-                </div>
-                <div class="row">
-                    <div class="col-5">
-                        <label class="form-label" for="inputGroupSelect01">Gender</label>
-                        <div class="input-group">
-                            <select class="custom-select form-control" id="inputGroupSelect01">
-                                <option selected>Choose ...</option>
-                                <option value="1">Male</option>
-                                <option value="2">Female</option>
-                                <option value="3">Undisclosed</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <label for="exampleInputPassword1" class="form-label">Date of Birth</label>
-                        <input type="date" class="form-control" id="exampleInputPassword1">
-                    </div>
-                </div>
-                <div class="row mb-2">
-                    <div class="col">
-                        <label for="exampleInputPassword1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleInputPassword1">
-                    </div>
-                </div>
-                <div class="row mb-2">
-                    <div class="col">
-                        <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" id="exampleInputPassword1">
-                    </div>
-                </div>
-                <hr>
-                <div class="row mb-2">
-                    <div class="col">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                </div>
-                <div class="row mb-2">
-                    <div class="col">
-                        <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                </div>
-                <hr>
-                <div class="row mb-2">
-                    <div class="col">
-                        <label for="exampleInputPassword1" class="form-label">Address</label>
-                        <textarea class="form-control" id="exampleInputPassword1"></textarea>
-                    </div>
-                </div>
-                <div class="row mb-2">
-                    <div class="col">
-                        <label for="exampleInputPassword1" class="form-label">City</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="col">
-                        <label for="exampleInputPassword1" class="form-label">Province</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="col">
-                        <label for="exampleInputPassword1" class="form-label">Country</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1">
-                    </div>
-                </div>
-                <hr>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions</label>
-                </div>
-                <div class="d-flex align-content-center justify-content-center w-100 flex-column text-color-beige mt-5">
-                    <button type="submit" class="btn btn-primary px-5 py-2 mx-auto">Register</button>
-                    <a href="/login" class="text-decoration-underline text-center mt-3" style="color: white">
-                        Have
-                        an
-                        account</a>
-                </div>
-
-            </form>
+        <!-- Name -->
+        <div>
+            <x-input-label for="name" :value="__('Name')" />
+            <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+            <x-input-error :messages="$errors->get('name')" class="mt-2" />
         </div>
-    </div>
-</div>
-@include('./components/footer')
+
+        <!-- Email Address -->
+        <div class="mt-4">
+            <x-input-label for="email" :value="__('Email')" />
+            <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
+            <x-input-error :messages="$errors->get('email')" class="mt-2" />
+        </div>
+
+        <!-- Password -->
+        <div class="mt-4">
+            <x-input-label for="password" :value="__('Password')" />
+
+            <x-text-input id="password" class="block mt-1 w-full"
+                            type="password"
+                            name="password"
+                            required autocomplete="new-password" />
+
+            <x-input-error :messages="$errors->get('password')" class="mt-2" />
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="mt-4">
+            <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
+
+            <x-text-input id="password_confirmation" class="block mt-1 w-full"
+                            type="password"
+                            name="password_confirmation" required autocomplete="new-password" />
+
+            <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
+        </div>
+
+        <div class="flex items-center justify-end mt-4">
+            <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('login') }}">
+                {{ __('Already registered?') }}
+            </a>
+
+            <x-primary-button class="ml-4">
+                {{ __('Register') }}
+            </x-primary-button>
+        </div>
+    </form>
+</x-guest-layout>
