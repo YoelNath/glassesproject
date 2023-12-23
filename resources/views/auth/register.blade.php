@@ -9,7 +9,7 @@
                 <div class="row mb-2">
                     <div class="col">
                         <label for="completeName" class="form-label">Complete Name</label>
-                        <input type="email" class="form-control" id="completeName"
+                        <input type="text" class="form-control" id="completeName"
                             aria-describedby="completeNameHelp">
                     </div>
 
@@ -83,7 +83,7 @@
                     <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions</label>
                 </div>
                 <div class="d-flex align-content-center justify-content-center w-100 flex-column text-color-beige mt-5">
-                    <button type="submit" class="btn btn-primary px-5 py-2 mx-auto">Register</button>
+                    <a href="/" class="btn btn-primary px-5 py-2 mx-auto">Register</a>
                     <a href="/login" class="text-decoration-underline text-center mt-3" style="color: white">
                         Have
                         an
