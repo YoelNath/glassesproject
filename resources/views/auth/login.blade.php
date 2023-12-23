@@ -22,7 +22,7 @@
                     <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                 </div>
                 <div class="d-flex align-content-center justify-content-center w-100 flex-column text-color-beige">
-                    <button type="submit" class="btn btn-primary px-5 py-2 mx-auto">Login</button>
+                    <a href="/"><button type="submit" class="btn btn-primary px-5 py-2 mx-auto">Login</button></a>
                     <a href="/register" class="text-decoration-underline text-center mt-3" style="color: white">Don't
                         have
                         an
